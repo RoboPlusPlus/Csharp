@@ -1,0 +1,283 @@
+<html>
+
+<head>
+<title>CTraceRoute v1.0</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="left"><img src="tracer.gif" width="39" height="37" alt="tracer.gif (1255 bytes)"><font
+face="Arial"><big><big><big><big><strong>CTraceRoute v1.0</strong></big></big></big></big></font></p>
+
+<p><font face="Arial">Welcome to <strong>CTraceRoute</strong>, a freeware MFC class to
+implement trace route functionality. </font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table>
+  <tr>
+    <td><font face="Arial"><a href="#Features">Features</a></font></td>
+  </tr>
+  <tr>
+    <td><font face="Arial"><a href="#Usage">Usage</a></font></td>
+  </tr>
+  <tr>
+    <td><font face="Arial"><a href="#History">History</a></font></td>
+  </tr>
+  <tr>
+    <td><font face="Arial"><a href="#APIReference">API Reference</a></font></td>
+  </tr>
+  <tr>
+    <td><font face="Arial"><a href="#Enhancements">Planned Enhancements</a></font></td>
+  </tr>
+  <tr>
+    <td><font face="Arial"><a href="#Contact">Contacting the Author</a></font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial"><a name="Features"></a><big><strong><big>Features</big></strong></big>
+</font>
+
+<ul>
+  <li><font color="#000000" size="3" face="Arial">Simple and clean C++ interface.</font></li>
+  <li><font color="#000000" size="3" face="Arial">The interface provided is synchronous which
+    provides an easier programming model than using asynchronous sockets.</font></li>
+  <li><font color="#000000" size="3" face="Arial">virtual functions are provided to support
+    callback.</font></li>
+  <li><font color="#000000" size="3" face="Arial">A configurable timeout can be set through
+    the class API.</font></li>
+  <li><font color="#000000" size="3" face="Arial">The classes are fully Unicode compliant and
+    include Unicode built options in the workspace file.</font></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a name="Usage"></a><font face="Arial"><big><big><strong>Usage</strong></big></big></font>
+
+<ul>
+  <li><font color="#000000" size="3" face="Arial">To use the class in your code simply include
+    tracer.cpp in your project and #include tracer.h in which ever of your modules needs to
+    make calls to the class. </font></li>
+  <li><font face="Arial">Your code will need to include MFC either statically or dynamically.</font></li>
+  <li><font face="Arial">You will need to have a functioning winsock stack installed as the
+    code links to wsock32.dll.</font></li>
+  <li><font face="Arial">The code will work just aswell in a GUI or console app. The code
+    should also work in a multithreaded application, although it has not be explicitly tested
+    in this scenario.</font></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial"><big><a name="History"></a></big><font color="#000000" size="5"><strong>History</strong></font></font></p>
+
+<p><font color="#000000" size="3" face="Arial"><strong>V1.0 (18th November 1998)</strong></font>
+
+<ul>
+  <li><font face="Arial"><font size="3"><font color="#000000">Initial public release.</font></font><big>
+    </big></font></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p class="crt"><font face="Arial"><a name="APIReference"></a><big><big><strong>API
+Reference</strong></big></big></font></p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial">The API consists of the the 2 classes:</font></p>
+
+<p><strong><font face="Arial"><a href="#CTraceRouteReply">CTraceRouteReply</a><small><br>
+</small><a href="#CTraceRoute">CTraceRoute</a></font></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><big><a name="CTraceRouteReply"></a><strong><font face="Arial">CTraceRouteReply</font></strong></big></p>
+
+<p><font face="Arial">This is an encapsulation of all the information as returned from a
+trace route request. It is a typedef for the following:</font></p>
+
+<p><font face="Arial">typedef CArray&lt;CHostTraceMultiReply,
+CHostTraceMultiReply&amp;&gt; CTraceRouteReply</font></p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial">The members of CHostTraceMultiReply are as follows:</font></p>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="16%"><strong><font face="Arial">DWORD dwError</font></strong></td>
+    <td width="84%"><font face="Arial">This is the error if any which occurred when doing a
+    ping to this host. This corresponds to the values as returned from GetLastError. 0
+    represents no error occurred.</font></td>
+  </tr>
+  <tr>
+    <td width="16%"><strong><font face="Arial">in_addr Address</font></strong></td>
+    <td width="84%"><font face="Arial">The IP address of the host for this part of the trace
+    route</font></td>
+  </tr>
+  <tr>
+    <td width="16%"><strong><font face="Arial">DWORD minRTT</font></strong></td>
+    <td width="84%"><font face="Arial">Minimum round trip time in milliseconds for this host</font></td>
+  </tr>
+  <tr>
+    <td width="16%"><strong><font face="Arial">DWORD avgRTT</font></strong></td>
+    <td width="84%"><font face="Arial">Average round trip time in milliseconds for this host</font></td>
+  </tr>
+  <tr>
+    <td width="16%"><strong><font face="Arial">DWORD maxRTT</font></strong></td>
+    <td width="84%"><font face="Arial">Maximum round trip time in milliseconds for this host</font></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a name="CTraceRoute"></a><big><font face="Arial"><strong>CTraceRoute</strong></font></big></p>
+
+<p><strong><font face="Arial"><a href="#Trace">Trace</a><br>
+<a href="#OnPingResult">OnPingResult</a><br>
+<a href="#OnSingleHostResult">OnSingleHostResult</a></font></strong></p>
+
+<p>&nbsp;</p>
+
+<p><big><a name="Trace"></a><strong><font face="Arial">CTraceRoute::Trace</font></strong></big></p>
+
+<p><font face="Arial"><strong>BOOL CTraceRoute::Trace(LPCTSTR </strong><em>pszHostName</em><strong>,
+CTraceRouteReply</strong>&amp; <em>trr</em>, <strong>UCHAR</strong> <em>nHopCount</em> <strong>=
+30</strong>, <strong>DWORD</strong> <em>dwTimeout</em> <strong>= 30000</strong>, <strong>DWORD</strong>
+<em>dwPingsPerHost</em> <strong>= 3</strong>) const</font></p>
+
+<p class="rl"><font face="Arial"><strong>Return Value</strong></font></p>
+
+<p class="t"><font face="Arial">If the function succeeds, the return value is TRUE. If the
+function fails, the return value is FALSE. To get extended error information, call
+::GetLastError.</font></p>
+
+<p><font face="Arial"><strong>Parameters</strong></font></p>
+
+<p><font face="Arial"><em>pszHostName</em> The network address of the socket to connect
+to: a machine name such as &#147;ftp.yourisp.com&#148;, or a dotted number such as
+&#147;128.56.22.8&#148; will both work.</font></p>
+
+<p><font face="Arial"><em>trr</em> Upon successful return, this will contain all the
+information related to the trace route request. See <a href="#CTraceRouteReply">CTraceRouteReply</a>
+for further details.</font></p>
+
+<p><font face="Arial"><em>nHopCount</em> This is the maximum TTL to use. This corresponds
+to the farthest router which the ping request will reach.</font></p>
+
+<p><font face="Arial"><em>dwTimeout</em> The timeout for each ping in milliseconds.</font></p>
+
+<p><font face="Arial"><em>dwPingsPerHost</em> The number of pings to perform per host.</font></p>
+
+<p><font face="Arial"><strong>Remarks</strong></font></p>
+
+<p><font face="Arial">This function implements the trace route functionality.</font></p>
+
+<p>&nbsp;</p>
+
+<p><a name="OnPingResult"></a><big><font face="Arial"><strong>CTraceRoute::OnPingResult</strong></font></big></p>
+
+<p><font face="Arial"><strong>virtual BOOL CTraceRoute::OnPingResult(int </strong><em>nPingNum</em><strong>,
+const CHostTraceSingleReply&amp; </strong><em>htsr</em><strong>);</strong></font></p>
+
+<p class="rl"><font face="Arial"><strong>Return Value</strong></font></p>
+
+<p class="t"><font face="Arial">return TRUE to continue the trace route. Returning FALSE
+will cancel the operation.</font></p>
+
+<p><font face="Arial"><strong>Parameters</strong></font></p>
+
+<p><font face="Arial"><em>nPingNum</em> The ping reply which this function is being called
+for.</font></p>
+
+<p><font face="Arial"><em>htsr</em> Contains the actual results from the ping for this
+host</font></p>
+
+<p><font face="Arial"><strong>Remarks</strong></font></p>
+
+<p><font face="Arial">This function is called just after each ping reply. You can derive
+your own class from CTraceRoute and override this function so that your version is called
+at the appropriate times</font></p>
+
+<p>&nbsp;</p>
+
+<p><a name="OnSingleHostResult"></a><big><font face="Arial"><strong>CTraceRoute::OnSingleHostResult</strong></font></big></p>
+
+<p><font face="Arial"><strong>virtual BOOL CTraceRoute::OnSingleHostResult(int </strong><em>nHostNum</em><strong>,
+const CHostTraceMultiReply&amp; </strong><em>htmr</em><strong>);</strong></font></p>
+
+<p class="rl"><font face="Arial"><strong>Return Value</strong></font></p>
+
+<p class="t"><font face="Arial">return TRUE to continue the trace route. Returning FALSE
+will cancel the operation.</font></p>
+
+<p><font face="Arial"><strong>Parameters</strong></font></p>
+
+<p><font face="Arial"><em>nHostNum</em> The current host which this function is being
+called for.</font></p>
+
+<p><font face="Arial"><em>htmr</em> Contains the collective results from the ping for this
+host</font></p>
+
+<p><font face="Arial"><strong>Remarks</strong></font></p>
+
+<p><font face="Arial">This function is called just after all the pings for each host is
+complete. You can derive your own class from CTraceRoute and override this function so
+that your version is called at the appropriate times. See the CMyTraceRoute class in
+main.cpp for a concrete implementation.</font></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial"><big><a name="Enhancements"></a></big><font color="#000000" size="4"><strong>PLANNED
+ENHANCEMENTS</strong></font> </font>
+
+<ul>
+  <li><font color="#000000" size="3" face="Arial">If you have any other suggested
+    improvements, please let me know so that I can incorporate them into the next release.</font></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><font face="Arial"><a name="Contact"></a><font color="#000000" size="4"><strong>CONTACTING
+THE AUTHOR</strong></font></font></p>
+
+<p><font color="#000000" size="3" face="Arial">PJ Naughter<br>
+Email: <a href="mailto:pjn@indigo..ie">pjn@indigo.ie</a><br>
+Web: <a href="http://indigo.ie/~pjn">http://indigo.ie/~pjn</a><br>
+18th November 1998</font></p>
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pinglogger.exe" version="1.0.0.5" publicKeyToken="3229231a95b508bd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pinglogger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Pinglogger.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pinglogger.exe" size="34264">
+      <assemblyIdentity name="Pinglogger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>b6KzbsPiOThLoc18u/M7LLAKruhg2Y+7Ze/KFBoZtr0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pinglogger.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AVENTI-TECH\JoachimR" issuerKeyHash="b28b34cdfe4a9be77d0a46c949716a55188a9253" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wKrP0bllvIOjiPt4ohN6yHEadFmky9ZIyBJRYQZjLRU=</DigestValue></Reference></SignedInfo><SignatureValue>hR4WerFsRc5qFrkbMEfs7CHHoIW/ae34J5j4ZpObVLHDYoQEsRX/gDLITB9G3sx0pKeCq7VLWW+iGc8zs4BckDkYSrkGaoUwPZQinKwVb4kY+wb8Xyty6J3Lat9GBGPaQz/CKJmhlOyeQkQn4/C6Rd4hRnrtQFM1rn2ELBQ+sWo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rMZTWmaZV9IvMFoerLun7++U99dwbmyHWlgx9nJe62oaGc/fVvkXZNh9KCQJzXOrzX4SGdZ8IuLaPyXWOPJssdXy+EBDYvOTtkQxgjPcDwAdLx1KErVIdoXsREsoy601Pe7mYq8FzTy3roR3H+hY0/BQ9WN4amRSl0iBHmWEDyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="152d6306615112c848d6cba459741a71c87a13a278fb88a383bc65b9d1cfaac0" Description="" Url=""><as:assemblyIdentity name="Pinglogger.exe" version="1.0.0.5" publicKeyToken="3229231a95b508bd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AVENTI-TECH\JoachimR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kVJhDhUKes34/dLTB6genKKQYZlHJeG84ZPx4Iw3moo=</DigestValue></Reference></SignedInfo><SignatureValue>CqUA3+LYaF3MezOmiJBA1KV2qmgKSsQjYQ9qgMda3xo1TiPUtNQTQIvupKhaJG0S9lNwLWWTxqQaw5OPux0m0+2Jw/poSqviCa4NsDdZZzVcn1aRO9dytHWDUgOLYkaT9C9tQOfSoofwdrnVOZm8VlHNp3fyP3j0P6gk+QRugfc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rMZTWmaZV9IvMFoerLun7++U99dwbmyHWlgx9nJe62oaGc/fVvkXZNh9KCQJzXOrzX4SGdZ8IuLaPyXWOPJssdXy+EBDYvOTtkQxgjPcDwAdLx1KErVIdoXsREsoy601Pe7mYq8FzTy3roR3H+hY0/BQ9WN4amRSl0iBHmWEDyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQM6n1QXAlqo5IP5AZPz+G1DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAQQBWAEUATgBUAEkALQBUAEUAQwBIAFwASgBvAGEAYwBoAGkAbQBSMB4XDTE3MDMxMzE0MzEwOFoXDTE4MDMxMzIwMzEwOFowMzExMC8GA1UEAx4oAEEAVgBFAE4AVABJAC0AVABFAEMASABcAEoAbwBhAGMAaABpAG0AUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArMZTWmaZV9IvMFoerLun7++U99dwbmyHWlgx9nJe62oaGc/fVvkXZNh9KCQJzXOrzX4SGdZ8IuLaPyXWOPJssdXy+EBDYvOTtkQxgjPcDwAdLx1KErVIdoXsREsoy601Pe7mYq8FzTy3roR3H+hY0/BQ9WN4amRSl0iBHmWEDyECAwEAATANBgkqhkiG9w0BAQsFAAOBgQA47MSJ/QL3QF1zm65JyanLlQmPOVEjVhm6c3SpcsxfEHNUmcXkLF8hrD9Y6UrVg5RwDBLYcpmes3j8XPrtrVKLlejxpJo01++YHy4aiud2xX2ltbt4GqKEynLsz3XMgQT9vOXWh+efobq3iWGJOWMpS5Cqv4Oxqih7zUz6j/ux1w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

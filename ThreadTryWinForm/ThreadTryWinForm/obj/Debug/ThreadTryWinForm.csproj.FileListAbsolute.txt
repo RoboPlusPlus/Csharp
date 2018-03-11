@@ -1,0 +1,9 @@
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\bin\Debug\ThreadTryWinForm.exe.config
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\bin\Debug\ThreadTryWinForm.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\bin\Debug\ThreadTryWinForm.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.csprojResolveAssemblyReference.cache
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.Form1.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.Properties.Resources.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.csproj.GenerateResource.Cache
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\Csharp\ThreadTryWinForm\ThreadTryWinForm\obj\Debug\ThreadTryWinForm.pdb

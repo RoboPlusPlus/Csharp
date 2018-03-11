@@ -1,0 +1,55 @@
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\SampleINIfiles\Recipes.ini
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.exe.config
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.Com.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcComRcw.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.Com.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.vbprojResolveAssemblyReference.cache
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.MainMenu.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Page2.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.vbproj.GenerateResource.Cache
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\SampleINIfiles\Recipes.ini
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.exe.config
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.exe
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMI.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.Com.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcComRcw.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIControls.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\bin\Debug\OpcNetApi.Com.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.vbprojResolveAssemblyReference.cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.MainMenu.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.MainForm.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Resources.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Page2.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.vbproj.GenerateResource.Cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.vbproj.CoreCompileInputs.cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.exe
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMI\obj\Debug\AdvancedHMI.pdb

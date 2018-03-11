@@ -1,0 +1,41 @@
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.exe.config
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcComRcw.dll
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcNetApi.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcNetApi.Com.xml
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMIcs.csprojResolveAssemblyReference.cache
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.Properties.Resources.resources
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMIcs.csproj.GenerateResource.Cache
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.exe
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.pdb
+C:\Users\JoachimR\Dropbox\Programmering Div\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\PingToModbus.MainForm.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.exe.config
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.exe
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMICS.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcComRcw.dll
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIControls.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcNetApi.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\bin\Debug\OpcNetApi.Com.xml
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMIcs.csprojResolveAssemblyReference.cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\PingToModbus.MainForm.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.Properties.Resources.resources
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMIcs.csproj.GenerateResource.Cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMIcs.csproj.CoreCompileInputs.cache
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.exe
+C:\Users\JoachimR\Dropbox\Comp_science\Csharp\AdvancedHMI Csharp\AdvancedHMICS\obj\Debug\AdvancedHMICS.pdb

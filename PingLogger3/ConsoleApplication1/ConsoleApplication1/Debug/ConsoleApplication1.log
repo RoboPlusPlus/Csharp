@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+c:\users\joachim\dropbox\programmering div\csharp\pinglogger3\consoleapplication1\consoleapplication1\stdafx.cpp : fatal error C1041: cannot open program database 'C:\Users\Joachim\Dropbox\Programmering Div\Csharp\PingLogger3\ConsoleApplication1\ConsoleApplication1\Debug\vc141.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
